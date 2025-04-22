@@ -22,9 +22,6 @@ class Car{
         void showInfo(){
             cout<<"\nBrand: "<<*br<<"\nYear: "<<*yr;
         }
-        void test(){
-            cout<<brand<<year;
-        }
 };
 
 int main(){
@@ -32,5 +29,4 @@ int main(){
     c1->showInfo();
 
     delete c1;
-    test();
 }    
