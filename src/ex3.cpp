@@ -15,7 +15,7 @@ class Car{
             cout<<"\nCar "<<*br<<" from "<<*yr<<" created.";
         }
         ~Car(){
-            cout<<"Car "<<*br<<" destroyed.";
+            cout<<"\nCar "<<*br<<" destroyed.";
             delete br;
             delete yr;
         }
